@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Mr"
+license = "GPLv2"
+licenselink = "https://github.com/smoorg/mr/blob/main/LICENSE"
+description = ""
+homepage = ""
+tags = []
+features = []
+min_version = "0.0.1"
+
+[author]
+  name = "smoorg"
+  homepage = ""
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

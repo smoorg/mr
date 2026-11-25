@@ -1,0 +1,99 @@
+html {
+	font-family: "JetBrains Mono";
+	background-color: #1b1b1b;
+	color: #e6e6e6;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* At the top level of your code */
+
+div#content {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0 1rem;
+}
+
+div#spacer {
+    flex-grow: 2;
+}
+
+footer {
+	width: auto;
+}
+
+@media screen and (min-width: 850px) {
+
+	div#content,
+	footer {
+		max-width: 1024px;
+	}
+
+	div#content {
+		margin: 0 auto;
+	}
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: grey;
+}
+
+a:hover {
+	color: #e6e6e6;
+}
+
+footer {
+	justify-content: center;
+	text-align: center;
+}
+
+/* To be extracted from theme soon */
+li:before {
+	/*content: '\2010';*/
+	margin-left: -20px;
+	margin-right: 10px;
+}
+
+li {
+	margin: 5px 0;
+	/*list-style-type: none;*/
+}
+
+th {
+	text-align: left;
+}
+
+td {
+	vertical-align: baseline;
+}
+
+code {
+	padding: 2px 4px;
+	color: orange;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+}
+
+pre>code {
+	padding: 0px;
+	background-color: #000;
+}
+
+pre {
+	padding: 0px 16px;
+	background-color: #111 !important;
+}
